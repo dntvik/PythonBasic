@@ -1,4 +1,4 @@
-lst = [1,2,3,4,5]
+lst = [12, 3, 4, 10, 8]
 if len(lst) <= 1:
     lst = lst
 else:
