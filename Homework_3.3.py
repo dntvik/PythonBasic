@@ -1,4 +1,4 @@
-lst = [1, 2, 3]
+lst = [1, 2, 3, 4, 5]
 lenl = len(lst)
 mid = (len(lst)+1)//2
 lst1 = lst[:mid]
