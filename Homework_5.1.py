@@ -1,7 +1,7 @@
 import keyword
 import string
 
-name = input("Введіть ім'я змінної:")
+name = input("Введіть ім'я змінної: ")
 if len(name) == 0 or name[0] in string.digits or ' ' in name:
     x = False
 else:
@@ -16,9 +16,8 @@ else:
             break
         if i == '_':
             underscore_count += 1
-    if underscore_count > 1:
+    if 1 < underscore_count == len(name):
         x = False
-    else:
-        if name in keyword.kwlist:
-            x = False
+    if name in keyword.kwlist:
+        x = False
 print(x)
