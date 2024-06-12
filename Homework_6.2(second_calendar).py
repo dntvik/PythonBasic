@@ -1,5 +1,5 @@
-input_sec = int(input('Введіть кількість секунд, від 0 до 8640000:\n'))
-if not 0 <= input_sec <= 8640000:
+input_sec = int(input('Введіть кількість секунд, від 0 до 8639999:\n'))
+if not 0 <= input_sec < 8640000:
     print('Уважно прочитай, який діапазон секунд тобі дозволений!')
 else:
     cont_minutes, sec = divmod(input_sec, 60)
